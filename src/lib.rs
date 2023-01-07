@@ -1,11 +1,11 @@
 use neon::prelude::*;
 
 mod ping_response;
-mod rping;
+mod rs_ping;
 mod runtime;
 
 #[neon::main]
 fn main(mut cx: ModuleContext) -> NeonResult<()> {
-    cx.export_function("ping", rping::ping)?;
+    cx.export_function("ping", rs_ping::ping)?;
     Ok(())
 }

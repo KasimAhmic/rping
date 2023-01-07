@@ -1,15 +1,16 @@
 # WIP NOTICE
+
 This is my first ever Rust project. I'm probably doing all sorts of stupid things that I shouldn't be. Please don't use this in production... If you do, whatever happens is entirely on you.
 
-# rping
+# rs-ping
 
-**rping:** Allows Node.js to execute ping requests using the surge-ping crate
+**rs-ping:** Allows Node.js to execute ping requests using the surge-ping crate
 
 This project was bootstrapped by [create-neon](https://www.npmjs.com/package/create-neon).
 
-## Installing rping
+## Installing rs-ping
 
-Installing rping requires a [supported version of Node and Rust](https://github.com/neon-bindings/neon#platform-support).
+Installing rs-ping requires a [supported version of Node and Rust](https://github.com/neon-bindings/neon#platform-support).
 
 You can install the project with npm. In the project directory, run:
 
@@ -19,7 +20,7 @@ $ npm install
 
 This fully installs the project, including installing any dependencies and running the build.
 
-## Building rping
+## Building rs-ping
 
 If you have already installed the project and only want to run the build, run:
 
@@ -29,9 +30,9 @@ $ npm run build
 
 This command uses the [cargo-cp-artifact](https://github.com/neon-bindings/cargo-cp-artifact) utility to run the Rust build and copy the built library into `./index.node`.
 
-## Exploring rping
+## Exploring rs-ping
 
-After building rping, you can explore its exports at the Node REPL:
+After building rs-ping, you can explore its exports at the Node REPL:
 
 ```sh
 $ npm install
@@ -75,7 +76,7 @@ Runs the unit tests by calling `cargo test`. You can learn more about [adding te
 The directory structure of this project is:
 
 ```
-rping/
+rs-ping/
 ├── Cargo.toml
 ├── README.md
 ├── index.node
