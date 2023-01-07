@@ -1,5 +1,5 @@
 [package]
-name = "rping"
+name = "rs-ping"
 version = "1.0.0"
 description = "Allows Node.js to execute ping requests using the surge-ping crate"
 authors = ["Kasim Ahmic"]
